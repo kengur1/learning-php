@@ -1,0 +1,88 @@
+tu
+cool
+Ok. Da pocnemo od pocetka. Prvo cemo napraviti novi php fajl. index.php.
+ok
+Php pocinje sa <?php i zavrsava se sa ?> 
+to znam
+Takodje mozes da mesas PHP i HTML kod. 
+i to znam
+Onda ti znanje nije na 0 :) - 0,1 :D
+Ok. Prva funkcija koju cemo nauciti je echo. Ona sluzi za stampanje sadrzaja na ekranu. 
+Na kraju obavezno ide tacka-zarez; 
+i to mi je sve poznato - stizem do 0,2
+Ok. Jel vidis rezultat? 
+cek
+vidim, sve ok
+Ok. Da se vratimo na index.php. Obicno je preporucljivo da ne stavljas ?> na kraju koda, 
+ako je u pitanju samo php kod i ispod njega nema HTML koda. Tako se sprecava slanje nezeljenog sadrzaja web browseru. 
+Kao sto mozes da vidis, uklonio sam zavrsni php tag iz index.php. 
+vidim
+Shvatila? Kada ga koristimo a kada ne? 
+dap
+Good. 
+Ok. Da predjemo sada na php varijable, tj promenljive. 
+Svaka promenljiva u PHP pocinje sa znakom dolar $. 
+pratim
+Samo trenutak
+Ok. Ovaj link mozes da otvoris u posebnom tabu: https://php-learning-thegwynbleidd.c9users.io/
+i da gledas promene kako one nastaju. 
+dobro bre dragane, znam toliko :D
+Ok, ok. Znas sta su promenljive? 
+Znanje ti se povecava. Sada je na 0.4 :) 
+super :D promenljive, dodeljujemo im neke vrednosti da bi mogli kasnije da ih koristimo
+Da. U sustini to je rezervisano mesto u memoriji. U PHP-u one moraju da pocinju sa znakom $, da nemaju razmak u svom imenu,
+i da koriste samo slova, brojeve, donju crtu i -. Takodje ne smeju da pocinju sa brojem. 
+dobro, to je standardno
+Good. 
+Okej, funkciju echo mozes da koristis za stampanje vrednosti promenljivih. tacku . koristis za spajanje vrednosti dve ili vise promenljive, kako bi se one zajedno odstampale. 
+Jel znas o cemu ce biti sajt koji pravimo? 
+Problem mi je sto nemam pojma sta sajt sve treba da ima da bih mogla odgovarajucu temu da smislim
+Meni je totalno nebitno sta ce biti, ali gledam zbog baze i tih gluposti
+Onda mozemo da napravimo neku vrstu blog-a. Tabela korisnici, tabela vesti, tabela komentari. Korisnik ostavlja komentare na vesti. Jedan korisnik je admin. On postavlja vesti.
+Ok. Idemo dalje. Znas razliku izmedju "" i ''? Prilikom stampanja? 
+to ne
+Ok. prebaci se na index.php
+sta mislis da ce se sada desiti? 
+prvo bi trebao da stampa, a drugo ce verovatno ispisati Ime: $...
+Prvo ce odstampati vrednost promenljive, string "Jelena". Dok ce drugo odstampati string $ime. Mada moja greska, trebao sam u oba slucaja da stavim ime a ne jelena :D
+Vidim ;)
+ni ovu prvu nece stampati kako treba jer je promenljiva u ""
+Da, moja greska. Umesto Jelena stavi ime. Ali u sustini je to to. "" stampa vrednost promenljivih, dok '' bukvalno uzima string koji si stavila i njega stampa. 
+refresuj stranicu sada i videces rezultat
+videla
+good. mene nesto zeza net pa nece stalno da refresuje onu stranicu. 
+Ok. Znaci sada znas sta su promenljive, kako se koriste, znas za echo, razliku izmedju "" i ''. Hajde sada sama izkombinuj sve to i odstampaj nesto. 
+napravi novi fajl prvo. 
+Od sada cemo fajlovima davati imena na osnovi teme kojom se bavimo. Ti tvoj nazovi promenljive.php 
+ok
+Odlicno. 
+help - kako da vidim rezultat promenljive.php, posto mi otvara uvek index?
+dodaj na kraju linka /promenljive.php
+ok, moze
+U ovom slucaju su mogla ovo i jednostavnije da napises.
+aham, ok, to je ona tvoja kombinacija.. kul..
+Da. '' koristi samo kada nema promenljivi. 
+ok, jasno
+Good. Penjes se na 0.5 :) 
+Sve jasno do sada? Ima neko pitanje?
+Sve jasno :) Nema
+Idemo dalje. Tipovi podataka. Pored stringova, imamo i brojeve, nizove, objekte, boolean, i float tipove podataka. 
+Za razliku od Java ili C/C++ u PHP ne moramo eksplecitno da navedemo tip podataka pre imena promenljive. U Javi moras da uradis nesto tipa:
+int broj = 10; 
+string ime = "Jelena"
+ili nesto slicno 
+U php jednostavno stavis:
+$broj = 100
+$ime = "Jelena"
+ok.. tebe bas zeza net 
+Ok. Jesi videla novi fajl? Sve jasno? 
+videla
+Jasno? 
+Da, da ;)
+Ok. Novi zadatak. Iskombinuj sada HTML i PHP i odstampaj vrednosti PHP promenljivih unutar HTML tabele. 
+fajl nazovi vezba-tipovi-podataka.php 
+Ok. Rece imas vreme do pola jedan? 
+Pa da :(
+Ok. Znaci imamo vreme samo za jos jednu oblast. Nizove. Znas sta su nizovi? 
+vec smo pomenuli array
+Da, samo smo ga pomenuli. Sama oblast je daleko veca. Predji na niz.php
